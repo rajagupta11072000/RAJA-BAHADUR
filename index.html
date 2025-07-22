@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>Raja Bahadur 🗡️</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <div id="ui">
+    <div id="health">Health: <span id="healthVal">5</span></div>
+    <div id="score">Score: <span id="scoreVal">0</span></div>
+    <div id="highscore">High Score: <span id="highScoreVal">0</span></div>
+  </div>
+  <div id="gameOver">
+    <h1>Game Over</h1>
+    <p>Your Score: <span id="finalScore">0</span></p>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
